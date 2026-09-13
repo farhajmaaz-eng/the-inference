@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-13T07:55:51Z",
+  "title": "Design System: The Inference",
+  "extensions": {
+    "colorMeta": {
+      "paper": { "role": "neutral", "displayName": "Paper", "canonical": "#f8f8f5", "tonalRamp": ["oklch(15% 0.006 105)", "oklch(27% 0.006 105)", "oklch(39% 0.006 105)", "oklch(51% 0.006 105)", "oklch(63% 0.006 105)", "oklch(75% 0.006 105)", "oklch(87% 0.006 105)", "oklch(95% 0.006 105)"] },
+      "ink": { "role": "neutral", "displayName": "Editorial Ink", "canonical": "#20211f", "tonalRamp": ["oklch(15% 0.008 120)", "oklch(27% 0.008 120)", "oklch(39% 0.008 120)", "oklch(51% 0.008 120)", "oklch(63% 0.008 120)", "oklch(75% 0.008 120)", "oklch(87% 0.008 120)", "oklch(95% 0.008 120)"] },
+      "muted": { "role": "neutral", "displayName": "Muted Ink", "canonical": "#62645e", "tonalRamp": ["oklch(15% 0.012 120)", "oklch(27% 0.012 120)", "oklch(39% 0.012 120)", "oklch(51% 0.012 120)", "oklch(63% 0.012 120)", "oklch(75% 0.012 120)", "oklch(87% 0.012 120)", "oklch(95% 0.012 120)"] },
+      "line": { "role": "neutral", "displayName": "Hairline", "canonical": "#d2d3cc", "tonalRamp": ["oklch(15% 0.012 110)", "oklch(27% 0.012 110)", "oklch(39% 0.012 110)", "oklch(51% 0.012 110)", "oklch(63% 0.012 110)", "oklch(75% 0.012 110)", "oklch(87% 0.012 110)", "oklch(95% 0.012 110)"] },
+      "soft": { "role": "neutral", "displayName": "Soft Paper", "canonical": "#eeeee9", "tonalRamp": ["oklch(15% 0.008 105)", "oklch(27% 0.008 105)", "oklch(39% 0.008 105)", "oklch(51% 0.008 105)", "oklch(63% 0.008 105)", "oklch(75% 0.008 105)", "oklch(87% 0.008 105)", "oklch(95% 0.008 105)"] },
+      "publication-red": { "role": "primary", "displayName": "Publication Red", "canonical": "#aa3028", "tonalRamp": ["oklch(15% 0.14 28)", "oklch(27% 0.14 28)", "oklch(39% 0.14 28)", "oklch(51% 0.14 28)", "oklch(63% 0.14 28)", "oklch(75% 0.14 28)", "oklch(87% 0.14 28)", "oklch(95% 0.14 28)"] },
+      "inverse-paper": { "role": "neutral", "displayName": "Inverse Paper", "canonical": "#f7f7f2", "tonalRamp": ["oklch(15% 0.007 105)", "oklch(27% 0.007 105)", "oklch(39% 0.007 105)", "oklch(51% 0.007 105)", "oklch(63% 0.007 105)", "oklch(75% 0.007 105)", "oklch(87% 0.007 105)", "oklch(95% 0.007 105)"] },
+      "panel": { "role": "neutral", "displayName": "Panel Charcoal", "canonical": "#232520", "tonalRamp": ["oklch(15% 0.015 120)", "oklch(27% 0.015 120)", "oklch(39% 0.015 120)", "oklch(51% 0.015 120)", "oklch(63% 0.015 120)", "oklch(75% 0.015 120)", "oklch(87% 0.015 120)", "oklch(95% 0.015 120)"] },
+      "dark-paper": { "role": "neutral", "displayName": "Dark Paper", "canonical": "#191b18", "tonalRamp": ["oklch(15% 0.012 120)", "oklch(27% 0.012 120)", "oklch(39% 0.012 120)", "oklch(51% 0.012 120)", "oklch(63% 0.012 120)", "oklch(75% 0.012 120)", "oklch(87% 0.012 120)", "oklch(95% 0.012 120)"] },
+      "dark-ink": { "role": "neutral", "displayName": "Dark Theme Ink", "canonical": "#eceee5", "tonalRamp": ["oklch(15% 0.015 115)", "oklch(27% 0.015 115)", "oklch(39% 0.015 115)", "oklch(51% 0.015 115)", "oklch(63% 0.015 115)", "oklch(75% 0.015 115)", "oklch(87% 0.015 115)", "oklch(95% 0.015 115)"] },
+      "dark-muted": { "role": "neutral", "displayName": "Dark Muted Ink", "canonical": "#a9ada1", "tonalRamp": ["oklch(15% 0.02 120)", "oklch(27% 0.02 120)", "oklch(39% 0.02 120)", "oklch(51% 0.02 120)", "oklch(63% 0.02 120)", "oklch(75% 0.02 120)", "oklch(87% 0.02 120)", "oklch(95% 0.02 120)"] },
+      "dark-line": { "role": "neutral", "displayName": "Dark Hairline", "canonical": "#41463d", "tonalRamp": ["oklch(15% 0.025 125)", "oklch(27% 0.025 125)", "oklch(39% 0.025 125)", "oklch(51% 0.025 125)", "oklch(63% 0.025 125)", "oklch(75% 0.025 125)", "oklch(87% 0.025 125)", "oklch(95% 0.025 125)"] },
+      "dark-soft": { "role": "neutral", "displayName": "Dark Soft Surface", "canonical": "#252923", "tonalRamp": ["oklch(15% 0.02 125)", "oklch(27% 0.02 125)", "oklch(39% 0.02 125)", "oklch(51% 0.02 125)", "oklch(63% 0.02 125)", "oklch(75% 0.02 125)", "oklch(87% 0.02 125)", "oklch(95% 0.02 125)"] },
+      "dark-publication-red": { "role": "primary", "displayName": "Dark Publication Red", "canonical": "#f08c7c", "tonalRamp": ["oklch(15% 0.11 28)", "oklch(27% 0.11 28)", "oklch(39% 0.11 28)", "oklch(51% 0.11 28)", "oklch(63% 0.11 28)", "oklch(75% 0.11 28)", "oklch(87% 0.11 28)", "oklch(95% 0.11 28)"] },
+      "dark-inverse": { "role": "neutral", "displayName": "Dark Inverse", "canonical": "#191b18", "tonalRamp": ["oklch(15% 0.012 120)", "oklch(27% 0.012 120)", "oklch(39% 0.012 120)", "oklch(51% 0.012 120)", "oklch(63% 0.012 120)", "oklch(75% 0.012 120)", "oklch(87% 0.012 120)", "oklch(95% 0.012 120)"] },
+      "dark-panel": { "role": "neutral", "displayName": "Dark Theme Panel", "canonical": "#e6e9df", "tonalRamp": ["oklch(15% 0.018 120)", "oklch(27% 0.018 120)", "oklch(39% 0.018 120)", "oklch(51% 0.018 120)", "oklch(63% 0.018 120)", "oklch(75% 0.018 120)", "oklch(87% 0.018 120)", "oklch(95% 0.018 120)"] },
+      "brief-accent": { "role": "secondary", "displayName": "Brief Coral", "canonical": "#de8a74", "tonalRamp": ["oklch(15% 0.10 35)", "oklch(27% 0.10 35)", "oklch(39% 0.10 35)", "oklch(51% 0.10 35)", "oklch(63% 0.10 35)", "oklch(75% 0.10 35)", "oklch(87% 0.10 35)", "oklch(95% 0.10 35)"] },
+      "dark-brief-accent": { "role": "secondary", "displayName": "Dark Brief Coral", "canonical": "#a02c20", "tonalRamp": ["oklch(15% 0.14 31)", "oklch(27% 0.14 31)", "oklch(39% 0.14 31)", "oklch(51% 0.14 31)", "oklch(63% 0.14 31)", "oklch(75% 0.14 31)", "oklch(87% 0.14 31)", "oklch(95% 0.14 31)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Masthead", "purpose": "Publication masthead only." },
+      "headline": { "displayName": "Editorial Headline", "purpose": "Lead and article headlines." },
+      "title": { "displayName": "Story Title", "purpose": "Story rows, secondary leads, directories, and wire items." },
+      "body": { "displayName": "Interface Body", "purpose": "Summaries, navigation support, controls, and operational copy." },
+      "label": { "displayName": "Metadata Label", "purpose": "Desk labels, timestamps, states, and compact evidence metadata." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "wire-signal", "value": "3.2s cubic-bezier(0.16, 1, 0.3, 1) infinite", "purpose": "A restrained scale and drop-shadow pulse on the live wire icon." },
+      { "name": "smooth-scroll", "value": "scroll-behavior: smooth", "purpose": "Moves between article anchors; removed when reduced motion is requested." }
+    ],
+    "breakpoints": [
+      { "name": "wide", "value": "1500px" },
+      { "name": "desktop", "value": "1200px" },
+      { "name": "tablet", "value": "980px" },
+      { "name": "mobile", "value": "640px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The filled action used for publishing, saving, search, and other primary operations.",
+      "html": "<button class=\"ds-btn-primary\">Save changes</button>",
+      "css": ".ds-btn-primary { display:inline-flex; align-items:center; justify-content:center; gap:14px; min-height:42px; padding:9px 16px; border:1px solid var(--ink); border-radius:0; background:var(--ink); color:var(--paper); font-family:var(--font-sans); font-size:14px; font-weight:600; cursor:pointer; } .ds-btn-primary:hover { background:var(--muted); } .ds-btn-primary:focus-visible { outline:2px solid var(--accent); outline-offset:4px; } .ds-btn-primary:active { background:var(--ink); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A restrained outlined action for reject, archive, reorder, and filter controls.",
+      "html": "<button class=\"ds-btn-secondary\">Archive</button>",
+      "css": ".ds-btn-secondary { display:inline-flex; align-items:center; justify-content:center; gap:14px; min-height:42px; padding:9px 16px; border:1px solid var(--line); border-radius:0; background:transparent; color:var(--ink); font-family:var(--font-sans); font-size:14px; font-weight:600; cursor:pointer; } .ds-btn-secondary:hover { background:var(--soft); } .ds-btn-secondary:focus-visible { outline:2px solid var(--accent); outline-offset:4px; } .ds-btn-secondary:active { border-color:var(--ink); }"
+    },
+    {
+      "name": "Editorial Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "The square text field shared by public search and newsroom forms.",
+      "html": "<label class=\"ds-field\">Headline<input class=\"ds-field-input\" placeholder=\"Enter a precise headline\"></label>",
+      "css": ".ds-field { display:block; min-width:0; color:var(--ink); font-family:var(--font-sans); font-size:13px; font-weight:600; } .ds-field-input { display:block; width:100%; margin-top:6px; padding:10px 12px; border:1px solid var(--line); border-radius:0; background:var(--paper); color:var(--ink); font-family:var(--font-sans); font-size:15px; font-weight:400; caret-color:var(--accent); } .ds-field-input::placeholder { color:var(--muted); opacity:1; } .ds-field-input:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }"
+    },
+    {
+      "name": "Review Status",
+      "kind": "chip",
+      "refersTo": "status",
+      "description": "A compact square label for editorial state in newsroom tables.",
+      "html": "<span class=\"ds-status ds-status-review\">Review</span>",
+      "css": ".ds-status { display:inline-block; padding:3px 6px; border-radius:0; background:var(--soft); color:var(--ink); font-family:var(--font-sans); font-size:11px; line-height:1.4; font-weight:400; letter-spacing:.03em; text-transform:uppercase; white-space:nowrap; } .ds-status-review { color:var(--accent); }"
+    },
+    {
+      "name": "Desk Navigation",
+      "kind": "nav",
+      "description": "The always-reachable horizontal desk strip beneath the masthead.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a class=\"ds-nav-active\" href=\"#\">Front page</a><a href=\"#\">Models</a><a href=\"#\">Companies</a><a href=\"#\">Policy</a></nav>",
+      "css": ".ds-nav { display:flex; align-items:center; gap:25px; min-width:0; overflow:auto; padding:0; border-top:3px solid var(--ink); border-bottom:1px solid var(--ink); color:var(--ink); font-family:var(--font-sans); font-size:13px; font-weight:600; scrollbar-width:none; } .ds-nav a { flex-shrink:0; padding:12px 0; color:inherit; text-decoration:none; text-underline-offset:4px; } .ds-nav a:hover { text-decoration:underline; } .ds-nav a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; } .ds-nav .ds-nav-active { color:var(--accent); }"
+    },
+    {
+      "name": "What Changed Panel",
+      "kind": "custom",
+      "description": "The signature evidence-first summary placed at the report entry point.",
+      "html": "<section class=\"ds-change\"><div class=\"ds-change-heading\"><span class=\"ds-change-mark\">Δ</span> What changed?</div><ul><li>A new result changes the prior understanding.</li><li>The primary source is now attached.</li></ul></section>",
+      "css": ".ds-change { margin:22px 0; padding:16px 18px; border-top:1px solid var(--ink); border-radius:0; background:var(--soft); color:var(--ink); font-family:var(--font-sans); } .ds-change-heading { display:flex; align-items:center; gap:9px; margin-bottom:10px; font-size:12px; font-weight:750; letter-spacing:.075em; text-transform:uppercase; } .ds-change-mark { font-family:var(--font-serif); font-size:21px; line-height:1; font-weight:600; } .ds-change ul { margin:0; padding:0; list-style:none; } .ds-change li { font-size:15px; line-height:1.4; font-weight:550; } .ds-change li + li { margin-top:9px; }"
+    },
+    {
+      "name": "Story Row",
+      "kind": "card",
+      "description": "A border-separated story record with timestamp, metadata, headline, and concise delta.",
+      "html": "<article class=\"ds-story-row\"><time class=\"ds-story-time\">13 SEP<br><span>07:45 UTC</span></time><div><div class=\"ds-story-meta\">Models · 12 minutes ago</div><h3><a href=\"#\">A model release changes the deployment tradeoff</a></h3><p class=\"ds-story-change\"><span>Δ</span> The smaller tier now matches the prior flagship.</p></div><a class=\"ds-story-arrow\" href=\"#\" aria-label=\"Read story\">↗</a></article>",
+      "css": ".ds-story-row { display:flex; gap:25px; padding:22px 0; border-bottom:1px solid var(--line); color:var(--ink); font-family:var(--font-sans); } .ds-story-time { flex:0 0 73px; padding-top:2px; font-size:12px; font-variant-numeric:tabular-nums; } .ds-story-time span, .ds-story-meta { color:var(--muted); font-size:11px; letter-spacing:.05em; text-transform:uppercase; } .ds-story-row h3 { margin:8px 0; font-family:var(--font-serif); font-size:24px; line-height:1.25; font-weight:600; letter-spacing:-.02em; } .ds-story-row a { color:inherit; text-decoration:none; text-underline-offset:4px; } .ds-story-row a:hover { text-decoration:underline; } .ds-story-row a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; } .ds-story-change { margin:9px 0 0; font-size:12px; } .ds-story-change span { margin-right:4px; font-family:var(--font-serif); font-size:15px; } .ds-story-arrow { align-self:flex-start; margin-top:26px; }"
+    },
+    {
+      "name": "Daily Brief Panel",
+      "kind": "card",
+      "description": "The emphatic inverse module for a numbered daily reading sequence.",
+      "html": "<section class=\"ds-brief\"><div class=\"ds-brief-top\">The Daily Brief <time>13 Sep</time></div><h2>Five moves that <span>matter</span></h2><p>A concise editor’s sequence for the day.</p><ol><li><span>01</span> The lead development</li><li><span>02</span> The evidence to inspect</li></ol></section>",
+      "css": ".ds-brief { padding:20px; border-radius:0; background:var(--panel); color:var(--inverse); font-family:var(--font-sans); } .ds-brief-top { display:flex; justify-content:space-between; padding-bottom:12px; border-bottom:1px solid color-mix(in srgb, var(--inverse) 28%, transparent); font-size:10px; letter-spacing:.08em; text-transform:uppercase; } .ds-brief h2 { margin:20px 0 12px; font-family:var(--font-serif); font-size:34px; line-height:1.2; font-weight:600; letter-spacing:-.03em; } .ds-brief h2 span { color:#de8a74; } .ds-brief p { margin:0; font-size:13px; line-height:1.5; opacity:.83; } .ds-brief ol { margin:15px 0 0; padding:0; list-style:none; } .ds-brief li { display:flex; gap:12px; padding:12px 0; border-bottom:1px solid color-mix(in srgb, var(--inverse) 22%, transparent); font-size:14px; line-height:1.3; font-weight:550; } .ds-brief li span { padding-top:2px; font-size:12px; font-variant-numeric:tabular-nums; opacity:.6; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Editor’s Running Order",
+    "overview": "The Inference is a newspaper desk sharpened by the discipline of a financial terminal. Neutral paper, charcoal type, fine rules, and compact editorial modules make the reporting feel authoritative without becoming ceremonial. The system is dense but not cramped: hierarchy comes from typography, alignment, and evidence-led ordering rather than decorative containers.\n\nThe public reading surfaces and private newsroom share one visual grammar. Serif headlines carry editorial weight; sans-serif copy carries navigation, metadata, controls, and operational state. Light and dark themes reverse the material while preserving contrast, hierarchy, and the sparing signal role of publication red.",
+    "keyCharacteristics": [
+      "Editorial serif headlines paired with compact sans-serif interface copy.",
+      "Square, flat surfaces separated by one-pixel rules and occasional three-pixel section rules.",
+      "Publication red used only for urgency, review state, focus, and active wayfinding.",
+      "Information-dense grids that collapse into a deliberate reading order on small screens.",
+      "Light and dark themes built from parallel paper, ink, muted, line, soft, accent, inverse, and panel roles."
+    ],
+    "rules": [
+      { "name": "The Red Is Signal Rule", "body": "Publication red is reserved for urgency, editorial state, keyboard focus, and active wayfinding; it does not fill ordinary containers.", "section": "colors" },
+      { "name": "The Paper-and-Ink Rule", "body": "Default surfaces remain paper and ink; soft fills and inverse panels clarify hierarchy without creating a multicolor card system.", "section": "colors" },
+      { "name": "The Serif Carries Reporting Rule", "body": "Use Source Serif 4 for mastheads, story headlines, and long-form report copy; use Source Sans 3 for navigation, metadata, summaries, controls, and newsroom operations.", "section": "typography" },
+      { "name": "The Metadata Stays Small Rule", "body": "Labels and timestamps sit between 10px and 13px, gaining distinction through weight, tracking, case, and tabular numerals rather than size.", "section": "typography" },
+      { "name": "The Running Order Rule", "body": "Responsive layouts preserve editorial priority: the lead and its change summary precede the wire, supporting intelligence, and archive material.", "section": "layout" },
+      { "name": "The Flat-by-Default Rule", "body": "Surfaces remain flat; hierarchy is expressed through rules, contrast, spacing, and type rather than simulated elevation.", "section": "elevation" },
+      { "name": "The Square Instrument Rule", "body": "Keep containers and controls rectilinear; reserve circles for compact status indicators.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do lead with the reporting hierarchy: serif headline, concise deck or summary, metadata, and the concrete change.",
+      "Do use fine ink and hairline rules to organize dense material, with three-pixel rules reserved for major publication boundaries.",
+      "Do preserve the semantic light/dark role mapping instead of treating dark mode as a separate visual identity.",
+      "Do keep interactive fields and buttons square, legible, and visibly keyboard-focused."
+    ],
+    "donts": [
+      "Don't use publication red as a broad decorative fill or routine section color.",
+      "Don't introduce rounded-card grids, floating containers, or drop shadows into the flat newsroom grammar.",
+      "Don't replace the serif/sans role split with a single undifferentiated type treatment.",
+      "Don't hide core desk navigation on small screens; preserve it as a reachable horizontal strip."
+    ]
+  }
+}
